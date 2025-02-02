@@ -1,48 +1,66 @@
-# 🗺️ Merenderos Web Map
+Aquí tienes una versión más atractiva para los recruiters, destacando el impacto del proyecto, las tecnologías clave y cómo encaja con roles de **Web GIS Developer** o **GIS Software Engineer**. También he mejorado el formato y agregado más contexto sobre habilidades técnicas. 🚀  
 
-**Aplicación en línea**: [https://datregu-webmap-leaflet.netlify.app/](https://datregu-webmap-leaflet.netlify.app/)
+---
 
-Merenderos Web Map es una aplicación web interactiva que muestra puntos de interés utilizando **React**, **Leaflet** y un archivo **GeoJSON** local. El proyecto está containerizado con **Docker** y puede desplegarse fácilmente usando `docker-compose`.
+# 🗺️ Merenderos Web Map  
 
+🌍 **Live Demo**: [https://datregu-webmap-leaflet.netlify.app/](https://datregu-webmap-leaflet.netlify.app/)  
 
-## ✨ Features
+Merenderos Web Map is an **interactive web mapping application** that displays points of interest in Murcia, Spain, using **React**, **Leaflet**, and **GeoJSON**. The project is **fully containerized with Docker**, ensuring portability and ease of deployment.  
 
-- **Interactive Map**: 🖱️ Displays points of interest with intuitive navigation using Leaflet.
-- **Heatmap Visualization**: 🔥 Implements `leaflet.heat` to render density-based visualizations, providing insights into data distribution.
-- **Local GeoJSON Support**: 📂 Efficiently loads and processes geographic data from a local GeoJSON file.
-- **Dockerized Deployment**: 🐳 Ensures consistent and reproducible environments using Docker and `docker-compose`.
+This project showcases my expertise in **Web GIS development**, **spatial data visualization**, and **modern web technologies**, aligning with roles in GIS, frontend development, and geospatial software engineering.  
 
-## 🛠️ Prerequisites
+---
 
-Ensure you have the following installed:
+## ✨ Key Features  
 
-- [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+🚀 **Modern Web GIS Application** – Developed with **React.js**, **Leaflet**, and **PostGIS**, demonstrating strong frontend and geospatial development skills.  
 
-## 🚀 Installation
+🔥 **Heatmap Visualization** – Uses `leaflet.heat` to render density-based heatmaps for enhanced data insights.  
 
-1. **Clone the repository**:
+📍 **Local & Remote GeoJSON Support** – Handles spatial data efficiently with client-side rendering and API integration possibilities.  
 
-   ```sh
-   git clone https://github.com/datregu/merenderos_webmap.git
-   cd merenderos_webmap
-   ```
+🐳 **Dockerized Deployment** – Fully containerized with **Docker & Docker Compose**, ensuring a seamless development and deployment experience.  
 
-2. **Build and run the project using Docker Compose**:
+🌎 **Tile-Based Mapping** – Integrates **MapTiler** basemaps for optimized performance and a high-quality user experience.  
 
-   ```sh
-   docker-compose up --build
-   ```
+📡 **Extensible & Scalable** – Ready for integration with a backend using **PostgreSQL/PostGIS** or any other geospatial database.  
 
-3. **Access the application**:
+---
 
-   Open your browser and navigate to:
+## 🛠️ Tech Stack  
 
-   ```
-   http://localhost:3000
-   ```
+- **Frontend**: React.js, Leaflet.js, JavaScript/ES6  
+- **Geospatial Tools**: PostGIS (future backend integration), GeoJSON, ogr2ogr  
+- **Deployment**: Docker, Docker Compose, Netlify  
+- **Mapping Services**: MapTiler, OpenStreetMap  
 
-## 🗂️ Project Structure
+---
+
+## 🚀 Installation & Deployment  
+
+### 1️⃣ Clone the Repository  
+
+```sh
+git clone https://github.com/datregu/merenderos_webmap.git
+cd merenderos_webmap
+```
+
+### 2️⃣ Run with Docker Compose  
+
+```sh
+docker-compose up --build
+```
+
+### 3️⃣ Open in Browser  
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📂 Project Structure  
 
 ```
 merenderos_webmap/
@@ -54,14 +72,31 @@ merenderos_webmap/
 └── README.md           # Project documentation
 ```
 
-## ⚙️ Environment Variables
+---
 
-Configure the application using an `.env` file as needed.
+## 💼 Why This Project?  
 
-## 🤝 Contributing
+This project demonstrates:  
 
-We welcome contributions! Feel free to fork this repository and submit pull requests to enhance the project.
+✅ **Web GIS Development Skills** – Working with geospatial data, mapping libraries, and interactive visualization.  
+✅ **Frontend Engineering** – Building a performant and responsive map-based UI with React.js.  
+✅ **Dockerized Environments** – Containerizing applications for consistent deployments.  
+✅ **Geospatial Data Handling** – Managing spatial data in **GeoJSON** format, with future PostGIS integration.  
 
-## 📜 License
+🚀 Looking for **Web GIS Developer** roles where I can leverage these skills to build innovative geospatial applications!  
 
-This project is licensed under the MIT License.
+---
+
+## 🤝 Contributing  
+
+We welcome contributions! Fork the repo and submit a pull request to improve the project.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
+
+---
+
+💡 **Looking for a Web GIS Developer?** Let’s connect! 😊
