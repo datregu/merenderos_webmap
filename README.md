@@ -1,7 +1,3 @@
-Aquí tienes una versión más atractiva para los recruiters, destacando el impacto del proyecto, las tecnologías clave y cómo encaja con roles de **Web GIS Developer** o **GIS Software Engineer**. También he mejorado el formato y agregado más contexto sobre habilidades técnicas. 🚀  
-
----
-
 # 🗺️ Merenderos Web Map  
 
 🌍 **Live Demo**: [https://datregu-webmap-leaflet.netlify.app/](https://datregu-webmap-leaflet.netlify.app/)  
