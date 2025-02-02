@@ -1,6 +1,6 @@
 # 🗺️ Merenderos Web Map
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://datregu-webmap-leaflet.netlify.app/)
+**Aplicación en línea**: [https://datregu-webmap-leaflet.netlify.app/](https://datregu-webmap-leaflet.netlify.app/)
 
 Merenderos Web Map es una aplicación web interactiva que muestra puntos de interés utilizando **React**, **Leaflet** y un archivo **GeoJSON** local. El proyecto está containerizado con **Docker** y puede desplegarse fácilmente usando `docker-compose`.
 
