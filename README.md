@@ -1,68 +1,67 @@
-# Merenderos Web Map
+# 🗺️ Merenderos Web Map
 
-Merenderos Web Map is a static web mapping project built with **React** and **Leaflet**, designed to display points of interest (POIs) from a local **GeoJSON** file. The project does not require a backend server, making it lightweight and easy to deploy on platforms like **Netlify** or **GitHub Pages**.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://datregu-webmap-leaflet.netlify.app/)
 
-## Features
-- 📌 Displays POIs from a **local GeoJSON file**.
-- 🗺️ Uses **Leaflet** to render the interactive map.
-- 🔥 Includes a **heatmap** visualization with `leaflet.heat`.
-- 🎨 Uses **OpenStreetMap** and **MapTiler** tiles for the basemap.
-- ⚡ Built with **React** for component-based development.
+Merenderos Web Map es una aplicación web interactiva que muestra puntos de interés utilizando **React**, **Leaflet** y un archivo **GeoJSON** local. El proyecto está containerizado con **Docker** y puede desplegarse fácilmente usando `docker-compose`.
 
-## Installation & Setup
-To run the project locally, follow these steps:
 
-```bash
-# Clone the repository
-git clone https://github.com/datregu/merenderos_webmap.git
-cd merenderos_webmap
+## ✨ Features
 
-# Install dependencies
-npm install
+- **Interactive Map**: 🖱️ Displays points of interest with intuitive navigation using Leaflet.
+- **Heatmap Visualization**: 🔥 Implements `leaflet.heat` to render density-based visualizations, providing insights into data distribution.
+- **Local GeoJSON Support**: 📂 Efficiently loads and processes geographic data from a local GeoJSON file.
+- **Dockerized Deployment**: 🐳 Ensures consistent and reproducible environments using Docker and `docker-compose`.
 
-# Start the development server
-npm start
-```
+## 🛠️ Prerequisites
 
-The application will be available at `http://localhost:3000/`.
+Ensure you have the following installed:
 
-## Deployment
-Since this is a static project, it can be deployed to **Netlify**, **Vercel**, or **GitHub Pages**. To create a production build, run:
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
-```bash
-npm run build
-```
+## 🚀 Installation
 
-Upload the contents of the `build/` folder to your preferred hosting service.
+1. **Clone the repository**:
 
-## Project Structure
+   ```sh
+   git clone https://github.com/datregu/merenderos_webmap.git
+   cd merenderos_webmap
+   ```
+
+2. **Build and run the project using Docker Compose**:
+
+   ```sh
+   docker-compose up --build
+   ```
+
+3. **Access the application**:
+
+   Open your browser and navigate to:
+
+   ```
+   http://localhost:3000
+   ```
+
+## 🗂️ Project Structure
+
 ```
 merenderos_webmap/
-├── public/               # Static assets (icons, images, etc.)
-│   ├── puntos_interes.geojson  # Local GeoJSON file
-│   ├── restaurant.png    # Custom marker icon
-│   ├── index.html        # Main HTML file
-├── src/                  # React application source code
-│   ├── components/       # Reusable React components
-│   ├── Map.jsx           # Leaflet map component
-│   ├── Heatmap.jsx       # Heatmap component
-│   ├── App.js            # Main App entry
-│   ├── index.js          # ReactDOM render file
-├── package.json          # Dependencies and scripts
-├── README.md             # Project documentation
-└── .gitignore            # Files to ignore in Git
+├── front/              # React frontend with Leaflet
+│   ├── src/            # Source code
+│   ├── public/         # Static files (GeoJSON, icons, etc.)
+│   ├── Dockerfile      # Dockerfile for frontend
+├── docker-compose.yml  # Docker Compose configuration
+└── README.md           # Project documentation
 ```
 
-## Technologies Used
-- **React** (Front-end framework)
-- **Leaflet** (Mapping library)
-- **PostgreSQL/PostGIS** (Data processing, optional)
-- **GeoJSON** (Data format for geographic features)
-- **MapTiler / OpenStreetMap** (Basemap providers)
+## ⚙️ Environment Variables
 
-## License
+Configure the application using an `.env` file as needed.
+
+## 🤝 Contributing
+
+We welcome contributions! Feel free to fork this repository and submit pull requests to enhance the project.
+
+## 📜 License
+
 This project is licensed under the MIT License.
-
----
-
-🚀 Happy mapping! If you have any questions, feel free to open an issue or contribute. 😊
