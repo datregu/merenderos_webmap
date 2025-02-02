@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    container_name: postgres_merenderos
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - ./init_postgres.sql:/docker-entrypoint-initdb.d/init_postgres.sql
+      - ./insertar_puntos.sh:/docker-entrypoint-initdb.d/insertar_puntos.sh
+      - ./merenderos.geojson:/data/merenderos.geojson
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - webmap_network
+
+  backend:
+    build:
+      context: ./back
+    container_name: backend_merenderos
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
+    networks:
+      - webmap_network
+
+  frontend:
+    build:
+      context: ./front
+    container_name: frontend_merenderos
+    depends_on:
+      - backend
+    ports:
+      - "3001:80"
+    networks:
+      - webmap_network
+
+volumes:
+  postgres_data:
+
+networks:
+  webmap_network:

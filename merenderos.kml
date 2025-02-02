@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La cocina de la Vega de Murcia</name>
+    <description><![CDATA[Esta recopilación de restaurantes y bares de comida típica de la Vega de Murcia y su huerta contiene las propuestas realizadas por el perfil de Twitter EN UN LUGAR DE LA HUERTRA (@enunlugardelah1) en su twit:<br><br>https://twitter.com/enunlugardelah1/status/1599015333704396800 <br><br>Así como otras realizadas por decenas de perfiles en el hilo de twits.<br><br>La confección de este mapa digital ha sido realizada pro el perfil de Twitter Al-Murcsi (@Almursi2).<br><br> ]]></description>
+    <Style id="icon-1577-097138-labelson-nodesc">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Restaurantes y bares</name>
+      <Placemark>
+        <name>Restaurante El Pencho</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1586244,37.9926636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Portillo</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.2125343,37.9859953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Pollo Rockero</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.2194756,37.9865768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Cañota</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1683656,37.9795538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Rurru</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1619444,37.9661111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Las Acelgas 2</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.152809,38.0091915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Cañal Los Almillas</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1456358,37.9637607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Pájaros Ateneo Huertano</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1566788,37.9835728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Cherro</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1421755,37.9952839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Molinero</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1588889,37.9913889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Churra</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1279292,37.9929508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa el Alias</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1389139,37.9692004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Rincón del Pando</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1169305,37.9538089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Torremolinos</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1351759,38.0092882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Mochuelo</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1255713,38.0074636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Patio I</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1272012,38.0018723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Morata Restaurante</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1078703,37.9800314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Las Cumbres</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1222467,38.0248641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Abrasador Cánovas</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0967188,38.0079689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Rincón Huertano de Murcia</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0699568,37.9850878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Pepe Tomás</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0616187,37.9925655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rest.LA RANA</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0708504,38.0335311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palacete Rural La Seda</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0559505,38.0249818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Rosarito</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0468425,38.0263302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Restaurante La Esquina, El Pantala</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0378409,38.014989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Piedra</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.056066,38.0518213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Guiti</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0340334,38.0132514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HOTEL RESTAURANTE SANTOS</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0465845,38.0631414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milocho</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0025967,38.0460135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Albero</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.27216,38.0774718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante El Huerto del Badén</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1487009,37.9715358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Las Vigas</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1600641,37.9594438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Arroces el Pillo</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0914827,37.981783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Ventorrillo (Restaurante de las Peñas Huertanas)</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1146743,37.9850517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Bar Colina</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1466601,37.9606971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro social de mayores Javalí Viejo</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.202886,37.9919415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mesón de Pepe</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1417169,37.9898766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Los Limoneros</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.2199786,38.0227501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Extremeño</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.236573,37.956667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Venta El Peretón</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.2378625,37.9560292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Casa Ruiz</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1251723,37.9547567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terraza Higuericas</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0592078,38.029736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante La Mota</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0556025,38.0378067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar El Guapo</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.0667353,38.0268646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Calcetín</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1333835,38.0023398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Rajicas</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1957324,37.9894725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bodegón Los Toneles</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1260436,37.9841722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Casa Carrasco</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1543304,37.9588798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Mármol</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1269467,37.9494623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Merendero La Olivera</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.09343,38.013202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Las Morcillas</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.142961,37.9957181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Los Cazadores de Los Dolores</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.105002,37.9772324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Asador</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1401309,37.9411052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bodega Teodoro</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1370213,37.9920157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Palco del Parlamento Andaluz</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1304407,37.9866176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parlamento Andaluz</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1329221,37.984754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cervecería La Viuda</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1367878,37.9865675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Tío Sentao</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1374616,37.9877331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pepico del Tío Ginés</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1333607,37.9848849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Garrampón</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1259457,37.9862489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar Los Zagales</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1301013,37.9841715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luis De Rosario Taberna</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1368395,37.9850812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Jumillano</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.118854,37.983719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cueva del Oso</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1279688,37.986806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Jarras</name>
+        <styleUrl>#icon-1577-097138-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.1257716,37.9860689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
