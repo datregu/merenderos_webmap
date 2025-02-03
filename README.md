@@ -83,12 +83,6 @@ This project demonstrates:
 
 ---
 
-## 🤝 Contributing  
-
-We welcome contributions! Fork the repo and submit a pull request to improve the project.  
-
----
-
 ## 📜 License  
 
 This project is licensed under the **MIT License**.  
